@@ -11,7 +11,7 @@ const ValidIcon = () => <svg className="w-12 h-12 text-green-500" fill="none" st
 // For local development, this points to your local server.
 // IMPORTANT: You MUST change this to your live Render.com server URL before deploying.
 // Example: const API_URL = 'https://secure-wipe-api.onrender.com';
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://secure-wipe-client.onrender.com';
 
 function App() {
     const [user, setUser] = useState(null);
